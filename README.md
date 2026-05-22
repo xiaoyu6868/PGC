@@ -19,7 +19,7 @@ Xiaoyu Zhou<sup>1</sup>, Jianwei Fei<sup>2</sup>, Peipeng Yu<sup>1</sup>, Jingch
 
 ## 📣 News
 
-- `2025/09` : 🎉 Our paper has been accepted by ICML 2026 !
+- 🎉 Our paper has been accepted by ICML 2026 !
 
 ---
 

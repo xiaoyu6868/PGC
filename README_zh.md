@@ -37,9 +37,9 @@ pip install -r requirements.txt
 请在开始训练或测试之前，按以下分类下载所需的数据集、代码和模型权重。
 
 ### 2.1 CommGen15 和模型权重
-以下为本论文提出的预训练模型与评估数据集，已统一发布至 ModelScope：
-- **CommGen15 数据集 (Dataset)**: [xiaoyuzhou68/CommGen15](https://modelscope.cn/datasets/xiaoyuzhou68/CommGen15)
-- **PGC 预训练模型合集 (3 个 Checkpoints)**: [xiaoyuzhou68/PGC_ckpt](https://modelscope.cn/models/xiaoyuzhou68/PGC_ckpt)
+以下为本论文提出的预训练模型与评估数据集，已统一发布至 ModelScope 和 Hugging Face：
+- **CommGen15 数据集 (Dataset)**: [ModelScope-CommGen15](https://modelscope.cn/datasets/xiaoyuzhou68/CommGen15) 和 [HuggingFace-CommGen15](https://huggingface.co/datasets/xiaoyuzhou68/CommGen15)
+- **PGC 预训练模型合集 (3 个 Checkpoints)**: [ModelScope-PGC_ckpt](https://modelscope.cn/models/xiaoyuzhou68/PGC_ckpt) 和 [HuggingFace-PGC_ckpt](https://huggingface.co/xiaoyuzhou68/PGC_ckpt)
 
 ### 2.2 基础模型与评估基准
 除了本论文的数据外，还需要下载 DINOv2 基础模型以及开源的基准数据集进行全面的对比和实验：

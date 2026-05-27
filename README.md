@@ -36,9 +36,11 @@ pip install -r requirements.txt
 Before starting training or evaluation, please download the required datasets, codebases, and model weights according to the following categories.
 
 ### 2.1 CommGen15 and Model Weights
-The pre-trained models and evaluation dataset proposed in this paper have been officially released on ModelScope:
-- **CommGen15 Dataset**: [xiaoyuzhou68/CommGen15](https://modelscope.cn/datasets/xiaoyuzhou68/CommGen15)
-- **PGC Pre-trained Model Collection (3 Checkpoints)**: [xiaoyuzhou68/PGC_ckpt](https://modelscope.cn/models/xiaoyuzhou68/PGC_ckpt)
+The pre-trained models and evaluation dataset proposed in this paper have been officially released on ModelScope and Hugging Face:
+- **CommGen15 Dataset**: [ModelScope-CommGen15](https://modelscope.cn/datasets/xiaoyuzhou68/CommGen15) and [HuggingFace-CommGen15](https://huggingface.co/datasets/xiaoyuzhou68/CommGen15)
+- **PGC Pre-trained Model Collection (3 Checkpoints)**: [ModelScope-PGC_ckpt](https://modelscope.cn/models/xiaoyuzhou68/PGC_ckpt) and [HuggingFace-PGC_ckpt](https://huggingface.co/xiaoyuzhou68/PGC_ckpt)
+
+
 
 ### 2.2 Foundation Model and Evaluation Benchmarks
 In addition to the data from this paper, you need to download the DINOv2 foundation model and open-source benchmark datasets for comprehensive comparison and experiments:

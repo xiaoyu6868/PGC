@@ -36,6 +36,8 @@ pip install -r requirements.txt
 
 请在开始训练或测试之前，按以下分类下载所需的数据集、代码和模型权重。
 
+（请注意，预训练权重 PGC_train_progan_ckpt.pth 和 PGC_train_sdv1_4_ckpt.pth 是在训练到 400 steps 时保存的，而 PGC_train_progan_sdv1_4_ckpt.pth 模型则训练到了 600 steps。）
+
 ### 2.1 CommGen15 和模型权重
 以下为本论文提出的预训练模型与评估数据集，已统一发布至 ModelScope 和 Hugging Face：
 - **CommGen15 数据集 (Dataset)**: [ModelScope-CommGen15](https://modelscope.cn/datasets/xiaoyuzhou68/CommGen15) 和 [HuggingFace-CommGen15](https://huggingface.co/datasets/xiaoyuzhou68/CommGen15)

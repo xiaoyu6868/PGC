@@ -35,6 +35,8 @@ pip install -r requirements.txt
 
 Before starting training or evaluation, please download the required datasets, codebases, and model weights according to the following categories.
 
+(Note that the pre-trained checkpoints PGC_train_progan_ckpt.pth and PGC_train_sdv1_4_ckpt.pth were saved at 400 training steps, while the PGC_train_progan_sdv1_4_ckpt.pth model was trained up to 600 steps.)
+
 ### 2.1 CommGen15 and Model Weights
 The pre-trained models and evaluation dataset proposed in this paper have been officially released on ModelScope and Hugging Face:
 - **CommGen15 Dataset**: [ModelScope-CommGen15](https://modelscope.cn/datasets/xiaoyuzhou68/CommGen15) and [HuggingFace-CommGen15](https://huggingface.co/datasets/xiaoyuzhou68/CommGen15)
